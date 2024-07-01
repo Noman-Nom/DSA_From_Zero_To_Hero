@@ -37,6 +37,27 @@ const arr3 = [0, 1 , 2 ,3 ,4 , 5]
 
 let num = 10 
 
-arr3[3] = arr3[3] + num
+// arr3[3] = arr3[3] + num
+arr3[3] +=num
 
 console.log(arr3[3]);
+
+
+
+// example 4  swap two numbers
+
+let a  = 10 
+let b = 5 
+
+console.log("a = ", a)
+console.log("b = ", b)
+
+
+let temp = a 
+
+a = b 
+
+b = temp 
+console.log("swap a = ", a)
+console.log("swap b = ", b)
+
