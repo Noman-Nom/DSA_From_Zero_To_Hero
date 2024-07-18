@@ -37,3 +37,25 @@
     }
     const n = 4
     console.log(createAdjencyMatrix(n))
+
+                // TASK 
+    // JavaScript code for finding pairs of values in an array whose sum equals a target, demonstrating quadratic time complexity (O(n²)):
+
+
+    const arr2 = [1,2,3,4,5,6,7,8,9,0]
+    const target = 10
+    const findTargetPairs = (arr2 , target)=>{
+        
+        for (let i = 0; i < arr2.length; i++) {
+                for (let j = i+ 1; j < arr2.length; j++) {
+                    
+                        if(arr2[i] + arr2[j]=== target){
+                            console.log(`pairs : ${arr2[i]} , ${arr2[j]}`)
+                        }
+
+                }
+            
+        } 
+
+    }
+    console.log(findTargetPairs(arr2 , target))
