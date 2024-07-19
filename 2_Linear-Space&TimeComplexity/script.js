@@ -34,8 +34,8 @@ const copyArrayFunction = ()=>{
 }
 
       copyArray  = copyArrayFunction(arr2)
-    //   console.log("Array = ", arr2)
-    //   console.log("Copy Array =", copyArray )
+      console.log("Array = ", arr2)
+      console.log("Copy Array =", copyArray )
 
 
     //   example 3 Sum of Elements in an Array  ---->The number of operations increases linearly with the number of elements in the array.
